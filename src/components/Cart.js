@@ -33,9 +33,9 @@ const Cart = ({ cart, setCart }) => {
       <StyledHeader>
         <>
           {cart.length !== 0 && (
-            <StyledButtonBig onClick={() => clearCart()}>
+            <StyledRemoveButton onClick={() => clearCart()}>
               Remove All Items
-            </StyledButtonBig>
+            </StyledRemoveButton>
           )}
         </>
       </StyledHeader>
