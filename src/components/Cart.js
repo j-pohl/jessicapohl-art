@@ -4,6 +4,7 @@ import {
   StyledButtonBig,
   ButtonArrowUp,
   ButtonArrowDown,
+  StyledRemoveButton,
 } from "../styles.js/Button.styled";
 import {
   StyledHeader,
