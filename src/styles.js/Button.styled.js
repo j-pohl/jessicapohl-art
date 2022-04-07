@@ -26,6 +26,20 @@ export const StyledButtonBig = styled.button`
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 `;
 
+export const StyledRemoveButton = styled.button`
+  display: block;
+  max-width: 200px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  border: black 3px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+`;
+
 export const ButtonArrowUp = styled.button`
   padding: 8px;
   margin-top: 35px;
