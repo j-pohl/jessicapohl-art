@@ -28,7 +28,7 @@ export const StyledButtonBig = styled.button`
 
 export const StyledRemoveButton = styled.button`
   display: block;
-  max-width: 200px;
+  max-height: 40px;
   padding: 20px;
   font-size: 18px;
   font-weight: 900;
