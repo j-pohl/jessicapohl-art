@@ -11,7 +11,7 @@ const Home = (props) => {
 
   useEffect(() => {
     change();
-    const intervalId = setInterval(change, 5000);
+    const intervalId = setInterval(change, 4000);
     return () => {
       clearInterval(intervalId);
     };
