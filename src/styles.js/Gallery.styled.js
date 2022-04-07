@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const GalleryContainer = styled.div`
   text-align: center;
-  padding: 40px;
+  padding: 40px 80px;
   background-color: #282c34;
   font-size: calc(10px + 2vmin);
   color: rgb(216, 200, 165);
