@@ -30,15 +30,6 @@ const Cart = ({ cart, setCart }) => {
         <h1>Cart</h1>
       </StyledHeader>
       <StyledHeaderTotalSum>Total Cost: ${getTotalSum()}</StyledHeaderTotalSum>
-      <StyledHeader>
-        <>
-          {cart.length !== 0 && (
-            <StyledRemoveButton onClick={() => clearCart()}>
-              Remove All Items
-            </StyledRemoveButton>
-          )}
-        </>
-      </StyledHeader>
 
       {cart.map((product, index) => (
         <div key={index}>
@@ -61,6 +52,15 @@ const Cart = ({ cart, setCart }) => {
           </StyledButtonSmall>
         </div>
       ))}
+        <StyledHeader>
+          <>
+            {cart.length !== 0 && (
+              <StyledRemoveButton onClick={() => clearCart()}>
+                Remove All Items
+              </StyledRemoveButton>
+            )}
+          </>
+        </StyledHeader>
     </StyledShop>
   );
 };
